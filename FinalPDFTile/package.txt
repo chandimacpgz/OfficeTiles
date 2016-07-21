@@ -1,0 +1,6 @@
+{
+	"name": "PDFTile",
+	"title": "PDF Tile",
+	"description": "",
+	"version": "1.0"
+}
