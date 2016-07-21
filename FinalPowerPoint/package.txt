@@ -1,0 +1,6 @@
+{
+	"name": "PowerPointTile",
+	"title": "PowerPoint Tile",
+	"description": "",
+	"version": "1.0"
+}

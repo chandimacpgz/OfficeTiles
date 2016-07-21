@@ -1,0 +1,25 @@
+[
+	{
+		"name": "PowerPointTile",
+		"title": "PowerPoint Tile",
+		"type": ["Small","Large","ExtraLarge"],
+		"description": "",
+		"parameters": 
+			[
+				{"name": "DocName", "title": "Presentation Name", "type": "text", "default": "Untitled", "target": "js", "isStatic": false},
+				{"name": "DocDescription", "title": "Description", "type": "note", "default": "Comment", "target": "js", "isStatic": false},
+				{"name": "DocUrl", "title": "Presentation URL", "type": "text", "default": "http://url", "target": "js", "isStatic": false},
+				{"name": "Width", "title": "Popup Width", "type": "number", "default": 300, "target": "js", "isStatic": false},
+				{"name": "Height", "title": "Popup Height", "type": "number", "default": 500, "target": "js", "isStatic": false}
+				
+			],
+		"scripts": ["%PackageUrl%/PowerPointTemplate.js","%PackageUrl%/jquery.bpopup.min.js"],
+		"css": ["%PackageUrl%/PowerPointTemplate.css"],
+		"libraries": [],
+		"maximumItemsFromList": 1,
+		"class": "TileDataContext.Templates.PowerPointTemplate",
+		"html": "file:%PackageUrl%/tile.html",
+		"minimumSupportedVersion": "3.0",
+		"customDataAccess": true
+	}
+]
